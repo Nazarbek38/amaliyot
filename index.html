@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fake Store</title>
+  <link rel="stylesheet" href="main.css"/>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">🛍️ Fake Store</div>
+    <nav class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Products</a>
+      <div class="cart-icon" id="cart-btn">
+        🛒 <span id="cart-count">0</span>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1 class="title">Fake Store Products</h1>
+    <div id="products-container" class="products-grid"></div>
+  </div>
+
+  <!-- Cart Modal -->
+  <div id="cart-modal" class="cart-modal">
+    <div class="cart-content">
+      <span class="close-btn" id="close-cart">&times;</span>
+      <h2>🛒 Savat</h2>
+      <ul id="cart-items"></ul>
+      <p id="cart-empty">Savat bo‘sh</p>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
